@@ -35,6 +35,6 @@
 16) '==' converts types to integers and compares, while '===' strictly compares the value and its type
 17) 'How are you?' because 2 gets type converted to true and the else at the end is ignored
 18) separate file
-19) [6, 8, 10], 
-20) 
-21) 
+19) [6, 8, 10], because our Callback function adds 2 to whatever value is used as its parameter. Which that value then gets multiplied by 2 and then added to newArr. 
+20) separate file
+21) "1 4 3 2", lines are executed in order, however 1 & 4 don't have a set delay. Although 3's delay is set to 0 milliseconds, JS still reads that as a very minor delay, so it is logged after 4. 2 is logged last since it has a 1 second delay.
