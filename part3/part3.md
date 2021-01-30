@@ -10,3 +10,4 @@ Part 2:
 6) Apache
 7) Tue, 26 Jan 2021
 8) application/json
+9) fetchData()
